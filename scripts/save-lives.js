@@ -39,6 +39,10 @@ document.getElementById("colour_background").addEventListener("change", function
 document.getElementById("editor_form").addEventListener("submit", function(e){
    e.preventDefault();
    const svg_png_opts = {
+      top : 0,
+      left : 0,
+      height: 1143,
+      width: 1125,
       fonts: [
          {
             url: 'https://www.designedbycave.co.uk/save-lives/fonts/frutiger_77_black_condensed.woff2',
