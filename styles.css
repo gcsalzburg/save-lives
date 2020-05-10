@@ -47,7 +47,7 @@
 
 @media (max-width:700px) {
    .credits{text-align: center;}
-   .poster{margin:1em auto; width:95%}
-   .poster_panel{position: relative; width:100%; height:auto; left:auto; top:auto;}
+   .poster{margin:1em auto; width:95%; position:relative; left:auto; top:auto;}
+   .poster_panel{position: relative; width:100%; height:auto;}
    .editor{position: relative; right: auto; top: auto; margin: 1em auto;;}
  }
