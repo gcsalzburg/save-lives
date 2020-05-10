@@ -6,7 +6,14 @@
    font-style: normal;
 }
 
-.poster_panel{position:absolute; left:3vh; top:3vh; height:94vh; width:auto; z-index:50;}
+.credits{
+   font-family:Arial, sans-serif;
+   font-size:0.9em;
+}
+.credits a{
+   color: blue;
+}
+.poster_panel{position:absolute; left:10vh; top:10vh; height:80vh; width:auto; z-index:50;}
 
 .editor{
    position:absolute;
@@ -16,18 +23,19 @@
    max-width: 300px;       
    z-index:100;
    background: rgb(53,145,200);
-   background: linear-gradient(327deg, rgba(53,145,200,1) 0%, rgba(0,212,255,1) 100%); 
+   background: linear-gradient(327deg, rgb(99,99,99) 0%, rgb(22,22,22) 100%); 
    padding: 10px;
    border-radius: 20px;
 }
 .editor form{display:flex; flex-direction: column;}
-.editor form > div{display:flex; margin-bottom:3px;}
+.editor form > div:not(:last-of-type){display:flex; margin-bottom:6px;}
 .editor form > div:last-of-type{justify-content:end;}
 .editor label, .editor input{
    font-size:1.2em;
    padding: 0.4em 0.5em;
+   height: auto;
 }
-.editor label{color:black; margin-right:2px; background:white;}
+.editor label{color:white; margin-right:2px;}
 .editor input{width:250px; border:none; background:white; color:#000;}
 .editor input[type=submit]{position:relative; right:0;}
 .editor input[type=submit]:hover{background:#333; color:#fff}
