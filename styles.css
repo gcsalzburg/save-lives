@@ -1,0 +1,18 @@
+@font-face {
+   font-family: 'Frutiger Black Condensed';
+   src: url('fonts/frutiger_77_black_condensed.woff2') format('woff2'),
+         url('fonts/frutiger_77_black_condensed.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.poster_panel{position:absolute; left:0; top:0; height:100vh; width:auto;}
+
+.svg_bg{fill:#FFFF00;}
+.svg_stripes{fill:#FF0000;}
+
+.svg_text{fill:#000000; font-family: 'Frutiger Black Condensed'; text-transform: uppercase; letter-spacing:-4px; text-anchor:middle;}
+.svg_text1{font-size:188px;}
+.svg_text2{font-size:234px;}
+.svg_text3{font-size:218px;}
+.svg_text4{font-size:187px;}
