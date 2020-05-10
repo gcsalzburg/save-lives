@@ -1,18 +1,18 @@
 const input_mappings = [
    {
-      "input" : document.getElementById("row1"),
+      "input" : document.getElementById("meme_row1"),
       "node"  : document.getElementById("svg_text1")
    },
    {
-      "input" : document.getElementById("row2"),
+      "input" : document.getElementById("meme_row2"),
       "node"  : document.getElementById("svg_text2")
    },
    {
-      "input" : document.getElementById("row3"),
+      "input" : document.getElementById("meme_row3"),
       "node"  : document.getElementById("svg_text3")
    },
    {
-      "input" : document.getElementById("row4"),
+      "input" : document.getElementById("meme_row4"),
       "node"  : document.getElementById("svg_text4")
    }
 ]
