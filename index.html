@@ -7,6 +7,9 @@
       <link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
+      <section id="credits" class="credits">
+         <span>A silly project by <a href="https://twitter.com/George_Cave">George Cave</a></span>
+      </section>
       <section id="editor" class="editor">
          <form id="editor_form">
             <div>
@@ -26,13 +29,21 @@
                <input type="text" id="row4" placeholder="Save Lives">
             </div>
             <div>
+               <label for="colour">Background:</label>
+               <input type="color" value="#ffff00" id="colour_background">
+            </div>
+            <div>
+               <label for="colour">Marks:</label>
+               <input type="color" value="#ff0000" id="colour_marks">
+            </div>
+            <div>
                <input type="submit" id="submit" value="Generate Image!">
             </div>
          </form>
       </section>
       <section id="poster">
          <svg width="1125" height="1143" viewBox="0 0 1125 1143" class="poster_panel" id="poster_panel" xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <rect class="svg_bg" width="1125" height="1143" fill="#FFFF00"/>
+            <rect class="svg_bg" width="1125" height="1143" fill="#FFFF00" id="poster_background"/>
             <polygon style="fill:#FF0000" class="svg_stripes" points="172.05,42 214.05,0 102.33,0 60.33,42 "/>
             <polygon style="fill:#FF0000" class="svg_stripes" points="395.26,42 437.26,0 325.54,0 283.54,42 "/>
             <polygon style="fill:#FF0000" class="svg_stripes" points="577.45,0 548.75,0 507.24,41.51 507.72,42 618.47,42 618.96,41.51 "/>

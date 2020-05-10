@@ -24,6 +24,18 @@ for(let i of input_mappings){
       i["node"].textContent = i["input"].value.toUpperCase();
    })
 }
+const svg_obj = document.getElementById("poster_panel");
+const polygons = svg_obj.getElementsByTagName('polygon');
+document.getElementById("colour_marks").addEventListener("change", function(e){
+   const col = document.getElementById("colour_marks").value;
+   for(poly of polygons){
+      poly.style.fill = col;
+   }
+});
+document.getElementById("colour_background").addEventListener("change", function(e){
+   const col = document.getElementById("colour_background").value;
+   document.getElementById("poster_background").style.fill = col;
+});
 document.getElementById("editor_form").addEventListener("submit", function(e){
    e.preventDefault();
    const svg_png_opts = {
