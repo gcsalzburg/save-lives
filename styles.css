@@ -13,7 +13,8 @@
 .credits a{
    color: blue;
 }
-.poster_panel{position:absolute; left:10vh; top:10vh; height:80vh; width:auto; z-index:50;}
+.poster{position:absolute; left:10vh; top:10vh; height:80vh; width:auto; z-index:50;}
+.poster_panel{width:auto; height:100%;}
 
 .editor{
    position:absolute;
